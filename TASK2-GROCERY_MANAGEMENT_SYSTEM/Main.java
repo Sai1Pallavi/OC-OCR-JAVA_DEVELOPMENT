@@ -10,11 +10,8 @@ import javax.swing.JPanel;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.SystemColor;
-
 public class Main {
-
 	private JFrame frame;
-
 	/**
 	 * Launch the application.
 	 */
@@ -30,14 +27,12 @@ public class Main {
 			}
 		});
 	}
-
 	/**
 	 * Create the application.
 	 */
 	public Main() {
 		initialize();
 	}
-
 	/**
 	 * Initialize the contents of the frame.
 	 */
@@ -47,7 +42,6 @@ public class Main {
 		frame.getContentPane().setBackground(SystemColor.inactiveCaptionBorder);
 		frame.setBounds(100, 100, 587, 445);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
 		JButton employlogin = new JButton("Employee Login");
 		employlogin.setBounds(305, 177, 194, 39);
 		employlogin.addActionListener(new ActionListener() {
@@ -67,7 +61,6 @@ public class Main {
 		employlogin.setBackground(new Color(0, 128, 64));
 		employlogin.setFont(new Font("Sitka Banner", Font.PLAIN, 24));
 		frame.getContentPane().add(employlogin);
-		
 		JButton about = new JButton("About");
 		about.setBounds(184, 284, 194, 39);
 		about.addActionListener(new ActionListener() {
@@ -81,7 +74,6 @@ public class Main {
 		about.setBackground(new Color(0, 128, 64));
 		about.setFont(new Font("Sitka Banner", Font.PLAIN, 24));
 		frame.getContentPane().add(about);
-		
 		JButton adminlogin = new JButton("Admin Login");
 		adminlogin.setBounds(56, 177, 194, 39);
 		adminlogin.addActionListener(new ActionListener() {
@@ -101,33 +93,27 @@ public class Main {
 		adminlogin.setBackground(new Color(0, 128, 64));
 		adminlogin.setFont(new Font("Sitka Banner", Font.PLAIN, 24));
 		frame.getContentPane().add(adminlogin);
-		
 		JLabel mainhead = new JLabel("Grocery Shop");
 		mainhead.setBounds(214, 39, 181, 33);
 		mainhead.setForeground(SystemColor.inactiveCaptionBorder);
 		mainhead.setFont(new Font("Sitka Banner", Font.BOLD, 30));
 		frame.getContentPane().add(mainhead);
-		
 		JPanel panel = new JPanel();
 		panel.setBounds(0, 0, 571, 96);
 		panel.setBackground(new Color(0, 128, 64));
 		frame.getContentPane().add(panel);
-		
 		JPanel panel_1 = new JPanel();
 		panel_1.setBounds(0, 93, 32, 313);
 		panel_1.setBackground(new Color(0, 128, 64));
 		frame.getContentPane().add(panel_1);
-		
 		JPanel panel_1_1 = new JPanel();
 		panel_1_1.setBounds(539, 93, 32, 313);
 		panel_1_1.setBackground(new Color(0, 128, 64));
 		frame.getContentPane().add(panel_1_1);
-		
 		JPanel panel_2 = new JPanel();
 		panel_2.setBounds(26, 396, 535, -1);
 		panel_2.setBackground(new Color(0, 128, 64));
 		frame.getContentPane().add(panel_2);
-		
 		JPanel panel_3 = new JPanel();
 		panel_3.setBounds(33, 396, 511, 10);
 		panel_3.setBackground(new Color(0, 128, 64));
